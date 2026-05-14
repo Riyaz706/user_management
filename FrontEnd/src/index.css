@@ -1,0 +1,152 @@
+/* ===== BASIC THEME ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90d9;
+  padding: 12px 40px;
+}
+
+nav img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav ul li a.active {
+  background-color: #2c6fad;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #4a90d9;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* MAIN CONTENT */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90d9;
+}
+
+button {
+  padding: 10px;
+  background-color: #4a90d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c6fad;
+}
+
+/* USER CARD */
+.user-card {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.user-card:hover {
+  background-color: #eef5ff;
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.user-card p:first-child {
+  font-weight: bold;
+  color: #333;
+}
+
+/* USER DETAIL */
+.user-detail {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.user-detail p {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+/* HOME */
+.home {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+  color: #555;
+}

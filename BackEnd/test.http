@@ -1,0 +1,24 @@
+###create user
+POST http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+    "name":"deepesh",
+    "email":"910@gmail.com",
+    "dateOfBirth":"2005-11-19",
+    "mobileNumber":2390132
+}
+
+###read all users
+GET http://localhost:3000/user-api/users
+
+###read a user by id
+GET http://localhost:3000/user-api/user/69a681853c48a2240d6896aa
+
+###delete a user by id
+DELETE http://localhost:3000/user-api/user/69a681853c48a2240d6896aa
+
+###activate a user(PATCH - used for partial change)
+PATCH http://localhost:3000/user-api/user/69a681853c48a2240d6896aa
+
+###update user by id
